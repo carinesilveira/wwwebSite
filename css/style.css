@@ -85,11 +85,34 @@
 } 
 
 .third{
-    background-color: yellow;
+    height: 60vh;
+    background-color: white;
+    color: #1E1457;
+    flex-wrap: wrap;
 }
+
+.titulo-tres{
+    width: 30%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 35px;
+    padding: 30px;
+    background-color: pink; 
+}
+
+.imagens-tres{
+    /* background-color: black;
+    display: flex;
+    width: 85%;
+    padding-left: 400px;
+    height: 15vh;
+    align-items:center;
+    justify-content: space-around; */
+}
+
 .fourth{
     background-color: red;
 }
 .fifth{
     background-color: #EE82EE;
+    height: 60vh;
 }
