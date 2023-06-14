@@ -95,11 +95,19 @@
     width: 30%;
     font-family: 'DM Sans', sans-serif;
     font-size: 35px;
-    padding: 30px;
-    background-color: pink; 
+    padding: 30px; 
+    position: relative;
+    bottom: 60px;
+    left: 200px;
 }
 
 .imagens-tres{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 350px;
+    bottom: 95px;
     /* background-color: black;
     display: flex;
     width: 85%;

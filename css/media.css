@@ -1,31 +1,94 @@
-@media (min-width: 700px)and (max-width: 1900px){
-    .first p{
+@media (min-width: 700px)and (max-width: 1900px) {
+    .first p {
         font-size: 17px;
         width: 85%;
     }
-    .first h1{
+
+    .first h1 {
         font-size: 47px;
         width: 89%;
     }
-    .imagens{
-        padding-top: 150px;
+
+    .imagens {
+        padding-top: 100px;
         width: 85%;
     }
-    .img-app-store, .img-google-play{
+
+    .img-app-store,
+    .img-google-play {
         width: 38%;
     }
-    
-}
-   
-@media (max-width: 699px){
-    .first p{
-        font-size: 15px;
+
+    .linha {
+        display: none;
     }
-    .first h1{
+
+    .sobre {
+        padding: 20px;
+        position: relative;
+        left: 35px;
+        width: 60%;
+        height: 30vh;
+        font-size: 17px;
+    }
+
+    .second h1 {
+        font-size: 43px;
+        width: 89%;
+    }
+    .third h1{
+        background-color: blue;
+        font-size: 47px;
+        position: relative;
+        top: 30px;
+        right: 160px;
+    }
+    .img-estrela,.img-hexa,.img-bola{
+      width: 40%;
+      position: relative;
+      right: 200px;
+      top: 55px;
+    }
+}
+
+@media (max-width: 699px) {
+    .first p {
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .first h1 {
+        font-size: 40px;
+        width: 85%;
+        padding: 20px;
+    }
+
+    .imagens {
+        display: none;
+    }
+
+    .first h1 {
         font-size: 40px;
         width: 85%;
     }
-   .imagens{
-    display: none;
-   } 
+
+    .linha {
+        display: none;
+    }
+
+    .sobre {
+        padding: 20px;
+        position: relative;
+        left: 40px;
+        top: 60px;
+        width: 60%;
+        height: 30vh;
+        font-size: 17px;
+    }
+
+    .second h1 {
+        font-size: 35px;
+        width: 90%;
+        height: 30vh;
+    }
 }
