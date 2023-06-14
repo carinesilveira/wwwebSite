@@ -1,0 +1,31 @@
+@media (min-width: 700px)and (max-width: 1900px){
+    .first p{
+        font-size: 17px;
+        width: 85%;
+    }
+    .first h1{
+        font-size: 47px;
+        width: 89%;
+    }
+    .imagens{
+        padding-top: 150px;
+        width: 85%;
+    }
+    .img-app-store, .img-google-play{
+        width: 38%;
+    }
+    
+}
+   
+@media (max-width: 699px){
+    .first p{
+        font-size: 15px;
+    }
+    .first h1{
+        font-size: 40px;
+        width: 85%;
+    }
+   .imagens{
+    display: none;
+   } 
+}

@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Didact+Gothic&family=Indie+Flower&family=Inter:wght@300;400;500;600;700&family=Neucha&family=Oxygen:wght@700&family=Walter+Turncoat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.first{
+    background-image: linear-gradient(#9370DB, #EE82EE);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.first p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 23px;
+    height: 15vh;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.first h1{
+    color: white;   
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    height: 30vh; 
+    width: 70%;
+    text-align: left;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding-top: 30px;
+}
+
+.img-app-store, .img-google-play{
+    border-radius: 10px;
+}
+
+.second{
+    background-color: #1E1457;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 60vh;
+    color: #B2B6F4;   
+}
+
+.linha{
+    font-size: 40px;
+    height: 90px;
+}
+
+.titulo-dois{
+    width: 30%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 35px;
+    padding: 30px;
+} 
+
+.titulo-dois img{
+    width: 40%;
+    margin-top: 90px;
+}
+
+.sobre{
+    width: 30%;
+    height: 120px;
+    font-size: 19px;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    right: 90px;
+} 
+
+.third{
+    background-color: yellow;
+}
+.fourth{
+    background-color: red;
+}
+.fifth{
+    background-color: #EE82EE;
+}
