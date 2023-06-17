@@ -66,8 +66,6 @@
 .titulo-dois{
     width: 30%;
     font-family: 'DM Sans', sans-serif;
-    font-size: 35px;
-    padding: 30px;
 } 
 
 .titulo-dois img{
@@ -108,19 +106,19 @@
     position: relative;
     left: 350px;
     bottom: 95px;
-    /* background-color: black;
-    display: flex;
-    width: 85%;
-    padding-left: 400px;
-    height: 15vh;
-    align-items:center;
-    justify-content: space-around; */
 }
 
 .fourth{
-    background-color: red;
+    background-color:#B2B6F4;
+    height: 60vh;
+    display: flex;
 }
 .fifth{
     background-color: #EE82EE;
     height: 60vh;
+}
+.titulo-quatro h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 35px;
+    width: 30%;
 }
