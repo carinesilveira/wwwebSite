@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    
 }
 
 .first{
@@ -139,7 +140,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: violet;
 }
 
 .titulo-cinco h1{
@@ -168,40 +168,3 @@
     width: 100%;
    height: 40vh;
 }
-
-.sixth{
-    background-color: #1E1457;
-    color: #B2B6F4;
-    width: 100%;
-}
-/* .contato{
-    font-family: 'DM Sans', sans-serif;
-    position: relative;
-    left: 200px;
-    display: flex;
-}
-.sixth h1{
-    width:50%;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 50px;
-    position: relative;
-    bottom: 60px;
-}
-
-.sixth h2{
-    position: relative;
-    bottom: 60px;
-    left: 280px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.img-sexto{
-    position: relative;
-    left: 500px;
-    bottom: 65px;
-}
-
-.final{
-    width: 100%;
-} */
